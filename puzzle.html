@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>퍼즐과제</title>
+    <link rel="stylesheet" href="puzzle.css" />
+  </head>
+  <body>
+    <div id="Puzzles">
+      <div id="StartPuzzle"></div>
+      <div id="SolvePuzzle"></div>
+    </div>
+
+    <p id="StopWatch">Timer - 00 : 00</p>
+    <button id="StartGameBtn" onclick="startGame()">Start Game</button>
+    <h1 id="Success">SUCCESS!</h1>
+
+    <!-- <button id="CheckAnswerBtn" onclick="checkAnswer()">Check Answer</button> -->
+    <!-- 
+    <h1 id="TryNum">Try - 0</h1>
+    <h1 id="Score">Score -</h1> -->
+
+    <script src="puzzle.js"></script>
+  </body>
+</html>
+
+<!-- 1.전역변수 2.반복코드지양 3.퍼즐을 옮기기위한 3중구조 -->
+
+<!-- checkAnswer 성공시 더이상 못누르게 
+
+4x4퍼즐도 가능하게 모듈화 
+
+showPictrue와 checkAnswer은 생략할 수도 있다. 기능을 압축하자 
+
+정답일 때 즉시 뜨도록 하는 게 좋아 
+
+list.sort() -->

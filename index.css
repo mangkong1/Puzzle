@@ -1,0 +1,46 @@
+#Header {
+  border: 1px solid white;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px;
+  background-color: #5d8bd8;
+  color: white;
+}
+
+#Main {
+  border: 1px solid white;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PuzzleList {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.PuzzleListImg {
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.ChoiceBtn {
+  border: 1px solid white;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #00b9f6;
+  cursor: pointer;
+}
